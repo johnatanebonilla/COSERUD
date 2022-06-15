@@ -76,7 +76,7 @@ def parse_file(model, gold_file, output_file):
             doc = nlp(t2s)
 
             f.write(f'# sent_id = {sentence["id"]}'  +'\n')
-            f.write(f'# text =  {sentence["text"]}'  +'\n')
+            f.write(f'# text = {sentence["text"]}'  +'\n')
             c=1
             for elem in doc.sents:
                 for i in range(len(elem._.conll)):
