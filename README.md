@@ -1,14 +1,8 @@
+## UD_Spanish-COSER
+
 This repository contains the datasets used to evaluate state-of-the-art POS taggers when dealing with spoken Spanish, as described in the paper by Bonilla et al. (2022). The datasets were also used in the games with a purpose hosted at http://www.juegosdelespanol.com as part of a gamified approach for verifying Part of Speech (PoS) tagging of spoken dialectal Spanish. This was necessary due to the scarcity of linguistic resources available for spoken varieties.
 
-The datasets are in CoNLL-U format and were first produced automatically, and then corrected manually for UPOS and FEATS tags. HEAD, DEP, and DEPS were produced automatically. Additionally, a tutorial dataset was double-checked by experts.
-
-The following is a list of the datasets included in this repository:
-
-es_coser-ud-dev.conllu
-es_coser-ud-test.conllu
-es_coser-ud-train.conllu
-es_coser-ud-tutorial.conllu
-Each file includes a README with additional information about the dataset and its usage.
+The datasets are in CoNLL-U format and were initially generated using automatic methods. They were then manually corrected for UPOS and FEATS tags, while HEAD, DEP, and DEPS tags were produced automatically. In addition, the UPOS tags for the tutorial dataset used in the gamified approach were double-checked by experts.
 
 To cite or check the results of using these datasets, please refer to the following paper:
 
