@@ -1,4 +1,4 @@
-## UD_Spanish-COSER v.1
+## COSER-PoS v.1
 
 This repository contains the datasets used to evaluate state-of-the-art POS taggers when dealing with spoken Spanish, as described in the paper by Bonilla et al. (2022). The datasets were also used in the games with a purpose hosted at http://www.juegosdelespanol.com as part of a gamified approach for verifying Part of Speech (PoS) tagging of spoken dialectal Spanish. This was necessary due to the scarcity of linguistic resources available for spoken varieties.
 
